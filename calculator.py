@@ -68,8 +68,8 @@ def calculate():
 
     if operation in operations: #Checking if the input is valid or not.
 
-      number_1 = int(input("Enter the first number: "))
-      number_2 = int(input("Enter the second number: "))
+      number_1 = float(input("Enter the first number: "))
+      number_2 = float(input("Enter the second number: "))
 
       if operation == "+":
         result = add(number_1, number_2) 
